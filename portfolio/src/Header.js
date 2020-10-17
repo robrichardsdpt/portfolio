@@ -8,25 +8,31 @@ import envelope from './email.png'
 
 const Header = () => (
   <Nav className='nav'>
-  <Navbar.Brand href='#'>
+  <Navbar.Brand href='#' className='headerName'>
     <h1>Rob Richards</h1>
     </Navbar.Brand>
     <Navbar className='navbar'>
     <Nav.Link className='link' href="#about">About</Nav.Link>
     <Nav.Link className='link' href="#projects">Projects</Nav.Link>
     <Nav.Link className='link' href="#skills">Skills</Nav.Link>
-    <Nav.Link className='link' href="#resume">Resume</Nav.Link>
+    <Nav.Link className='link' href="https://drive.google.com/file/d/1RHEUb8sDKkWqghBvrPh-A2quwAvEApgl/view?usp=sharing" target="_blank">Resume</Nav.Link>
     <Nav.Link className='link' href="#contact">Contact</Nav.Link>
     </Navbar>
     <Navbar className='navbarsocial'>
     <div className='social'>
+    <Nav.Link href="https://github.com/robrichardsdpt" target="_blank">
     <img src={gitHub} alt='github' className='gitHub'/>
+    </Nav.Link>
     </div>
     <div className='social'>
+    <Nav.Link href="https://www.linkedin.com/in/robert-richards-pt-dpt/" target="_blank">
     <img src={li} alt='linkedIn' className='li'/>
+    </Nav.Link>
     </div>
     <div className='social'>
+    <Nav.Link href="mailto:robrichardsdpt@gmail.com" target="_blank">
     <img src={envelope} alt='e-mail' className='email'/>
+    </Nav.Link>
     </div>
 
     </Navbar>

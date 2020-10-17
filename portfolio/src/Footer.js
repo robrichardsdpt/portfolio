@@ -2,7 +2,12 @@ import React from 'react'
 
 const Footer = () => (
   <div className="footer">
-    <h1>This is the Footer section</h1>
+  <div>
+  <h2>* Full Stack Software Engineer * * *</h2>
+  </div>
+  <div>
+  <h3>Boston, MA *</h3>
+  </div>
   </div>
 )
 
