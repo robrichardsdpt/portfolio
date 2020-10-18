@@ -8,9 +8,12 @@ import envelope from './email.png'
 
 const Header = () => (
   <Nav className='nav'>
+  <Navbar collapseOnSelect expand="xl" className='nav' variant="dark">
   <Navbar.Brand href='#' className='headerName'>
-    <h1>Rob Richards</h1>
+    <h1 className='headerName'>Rob Richards</h1>
     </Navbar.Brand>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
     <Navbar className='navbar'>
     <Nav.Link className='link' href="#about">About</Nav.Link>
     <Nav.Link className='link' href="#projects">Projects</Nav.Link>
@@ -36,6 +39,8 @@ const Header = () => (
     </div>
 
     </Navbar>
+    </Navbar.Collapse>
+  </Navbar>
   </Nav>
 )
 
