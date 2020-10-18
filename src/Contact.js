@@ -14,34 +14,34 @@ const Contact = () => (
     <h1>How to Contact Me...</h1>
     </Row>
     <Row>
-    <Col className="contactImageCells contactIcons" xs={6} md={3}>
+    <Col className="contactImageCells contactIcons" xs={12} md={3}>
     <img src={phone} alt='phone' className="contactImage" thumbnail/>
     </Col>
-    <Col className="contactImageCells" xs={12} md={9}>
+    <Col className="contactImageCells contactText" xs={12} md={9}>
     <h3>(919)745-7395</h3>
     </Col>
     </Row>
     <Row>
-    <Col className="contactImageCells contactIcons" xs={6} md={3}>
+    <Col className="contactImageCells contactIcons" xs={12} md={3}>
     <img src={email} alt='email' className="contactImage" thumbnail/>
     </Col>
-    <Col className="contactImageCells" xs={12} md={9}>
+    <Col className="contactImageCells contactText" xs={12} md={9}>
     <h3>robrichardsdpt@gmail.com</h3>
     </Col>
     </Row>
     <Row>
-    <Col className="contactImageCells contactIcons" xs={6} md={3}>
+    <Col className="contactImageCells contactIcons" xs={12} md={3}>
     <img src={li} alt='LinkedIn' className="contactImage" thumbnail/>
     </Col>
-    <Col className="contactImageCells" xs={12} md={9}>
+    <Col className="contactImageCells contactText" xs={12} md={9}>
     <h3>robert-richards-pt-dpt</h3>
     </Col>
     </Row>
     <Row>
-    <Col className="contactImageCells contactIcons" xs={6} md={3}>
+    <Col className="contactImageCells contactIcons" xs={12} md={3}>
     <img src={twitter} alt='twitter' className="contactImage" thumbnail/>
     </Col>
-    <Col className="contactImageCells" xs={12} md={9}>
+    <Col className="contactImageCells contactText" xs={12} md={9}>
     <h3>robrdpt</h3>
     </Col>
     </Row>

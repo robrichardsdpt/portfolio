@@ -80,6 +80,7 @@
   font-size: 1.75rem;
   padding-top: 50px;
   padding-bottom: 50px;
+  overflow: scroll;
 }
 .aboutText {
   overflow: scroll;
@@ -141,6 +142,7 @@
 .contact {
   background-color: #D2CED1;
   height: 84vh;
+  overflow: scroll;
 }
 
 .footer {
@@ -298,6 +300,11 @@
     align-items: center;
     padding: 10px;
     background-color: #D2CED1;
+    justify-content: center;
+  }
+  .contactText {
+    display: flex;
+    justify-content: center;
   }
   .link {
     font-size: 7vw;
@@ -390,6 +397,10 @@
     align-items: center;
     padding: 10px;
     background-color: #D2CED1;
+  }
+  .contactText {
+    display: flex;
+    justify-content: center;
   }
   .link {
     font-size: 7vw;
