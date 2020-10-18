@@ -80,7 +80,6 @@
   font-size: 1.75rem;
   padding-top: 50px;
   padding-bottom: 50px;
-  overflow: scroll;
 }
 .aboutText {
   overflow: scroll;
@@ -94,8 +93,8 @@
 }
 
 .projects{
-  background-color: #326229;
-  color: #D2CED1;
+  background-color: #9193a8;
+  color: #1c222e;
   height: 84vh;
   overflow: scroll;
 }
@@ -234,6 +233,7 @@
     display: flex;
     padding-top: 5px;
     height: 80vh;
+    overflow: scroll;
   }
   .aboutText {
     height: 380px;
@@ -331,6 +331,7 @@
     display: flex;
     padding-top: 5px;
     height: 80vh;
+    overflow: scroll;
   }
   .aboutText {
     height: 380px;
