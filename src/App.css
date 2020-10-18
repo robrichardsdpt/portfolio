@@ -155,6 +155,17 @@
 .projectImage:hover {
   filter: opacity(.5);
 }
+
+.projectIcon {
+  height: 88px;
+  width: 88px;
+  padding: 5px;
+}
+.projectIcon:hover {
+  height: 96px;
+  width: 96px;
+}
+
 .skillsImage {
   height: auto;
   width: 100%;
