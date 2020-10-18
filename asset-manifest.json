@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1c4c92e7.chunk.css",
+    "main.js": "/portfolio/static/js/main.67d668ce.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.67d668ce.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/css/2.2a86faee.chunk.css": "/portfolio/static/css/2.2a86faee.chunk.css",
+    "static/js/2.9fa0e05d.chunk.js": "/portfolio/static/js/2.9fa0e05d.chunk.js",
+    "static/js/2.9fa0e05d.chunk.js.map": "/portfolio/static/js/2.9fa0e05d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.821178431345ad90a0ccc04fd682f82e.js": "/portfolio/precache-manifest.821178431345ad90a0ccc04fd682f82e.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/portfolio/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.1c4c92e7.chunk.css.map": "/portfolio/static/css/main.1c4c92e7.chunk.css.map",
+    "static/js/2.9fa0e05d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9fa0e05d.chunk.js.LICENSE.txt",
+    "static/media/AJAX-Language-01.png": "/portfolio/static/media/AJAX-Language-01.fa7362e5.png",
+    "static/media/Django-01.png": "/portfolio/static/media/Django-01.dce771fe.png",
+    "static/media/HTML.png": "/portfolio/static/media/HTML.8d6f5740.png",
+    "static/media/JQuery-01.png": "/portfolio/static/media/JQuery-01.bb8e6034.png",
+    "static/media/Markdown-01.png": "/portfolio/static/media/Markdown-01.6bc7d60a.png",
+    "static/media/MongoDB-01.png": "/portfolio/static/media/MongoDB-01.0c3452f6.png",
+    "static/media/Node-JS-01.png": "/portfolio/static/media/Node-JS-01.8f343e6a.png",
+    "static/media/RRichardsfull.jpg": "/portfolio/static/media/RRichardsfull.230c80bf.jpg",
+    "static/media/Sass-01.png": "/portfolio/static/media/Sass-01.54d4c686.png",
+    "static/media/App.css": "/portfolio/static/media/bondcliff.83553b6d.jpg",
+    "static/media/css3-logo.png": "/portfolio/static/media/css3-logo.8f047bb8.png",
+    "static/media/email.png": "/portfolio/static/media/email.899e2d99.png",
+    "static/media/hike-log.jpg": "/portfolio/static/media/hike-log.5575261e.jpg",
+    "static/media/instasham.jpg": "/portfolio/static/media/instasham.50972978.jpg",
+    "static/media/javaScript-logo.png": "/portfolio/static/media/javaScript-logo.50a67f1c.png",
+    "static/media/mobile-phone-760.png": "/portfolio/static/media/mobile-phone-760.cb60e778.png",
+    "static/media/python-logo.png": "/portfolio/static/media/python-logo.3cf229ee.png",
+    "static/media/tic-tac-toe.jpg": "/portfolio/static/media/tic-tac-toe.f1ab0636.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.9fa0e05d.chunk.js",
+    "static/css/main.1c4c92e7.chunk.css",
+    "static/js/main.67d668ce.chunk.js"
+  ]
+}
