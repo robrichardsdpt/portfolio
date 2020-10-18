@@ -19,7 +19,9 @@ import sass from './Sass-01.png'
 const Skills = () => (
   <div className="skills">
   <Container className="skillsContainer">
+    <Row className='skillsHeader'>
     <h1>Some of my technology skills include:</h1>
+    </Row>
     <Row>
     <Col className='skillCol'>
     <img src={html} alt='html' className='skillsImage'/>
