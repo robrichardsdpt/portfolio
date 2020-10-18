@@ -35,6 +35,7 @@
 }
 .navbar {
   display: flex;
+  z-index: 10;
   justify-content: flex-end;
 }
 .link {
@@ -80,6 +81,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.aboutText {
+  overflow: scroll;
+}
 .name {
   font-family: 'Rock Salt', cursive;
 }
@@ -92,6 +96,7 @@
   background-color: #326229;
   color: #D2CED1;
   height: 84vh;
+  overflow: scroll;
 }
 
 .skills {
@@ -148,14 +153,20 @@
   padding-top: 10px;
   color: #D2CED1;
   justify-content: center;
+  z-index: 10;
+}
+.projects {
+  height: 85vh;
+  z-index: 1
 }
 .projectGrid {
   display: flex;
   max-width: 1800px;
   flex-wrap: wrap;
   justify-content: center;
-  display: grid;
   flex-direction: row-reverse;
+  height: 70vh;
+  overflow: scroll;
   grid-template-columns: repeat(auto-fill,minmax(725px, 1fr));
 }
 .projectImage {
@@ -202,43 +213,185 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about {
-    background-color: lightblue;
+  .App {
     display: flex;
+    background-image: url('./bondcliff.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 0px;
+  }
+  .about {
+    display: flex;
+    padding-top: 5px;
+    height: 80vh;
   }
   .aboutText {
-    height: 360px;
+    height: 380px;
     font-size: 1rem;
     overflow: scroll;
   }
   .self {
+    padding: 5px;
     width: 280px;
   }
   .nav {
-    font-size: 0.75vw;
+      background-color: #06283B;
+      height: 10vh;
+      margin-top: 0px;
+      margin-bottom:0px;
+      padding-top: 0px;
+      color: White;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75vw;
   }
   .headerName {
     font-family: 'Rock Salt', cursive;
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .headerName:hover {
     color: #6598C7;
   }
+  .projects {
+    height: 80vh;
+  }
   .projectsGrid {
-    height: 510px;
+    height: 70vh;
     overflow: scroll;
+  }
+  .skills {
+    height: 80vh;
   }
   .footer {
     display: flex;
     font-family: 'Rock Salt', cursive;
     background-color: #06283B;
-    height: 10vw;
+    height: 20vw;
     margin-top: 0px;
     margin-bottom:0px;
     padding-top: 10px;
     color: #D2CED1;
     justify-content: center;
     font-size: 0.75vw;
+  }
+  .footerName {
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-size: 4vw;
+  }
+  .navbar {
+    background-color: #06283B;
+    font-size: 0.75vw;
+  }
+  .contactImageCells {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #D2CED1;
+  }
+  .link {
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
+  .App {
+    display: flex;
+    background-image: url('./bondcliff.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 0px;
+  }
+  .about {
+    display: flex;
+    padding-top: 5px;
+    height: 80vh;
+  }
+  .aboutText {
+    height: 380px;
+    font-size: 1rem;
+    overflow: scroll;
+  }
+  .self {
+    padding: 5px;
+    width: 280px;
+  }
+  .nav {
+      background-color: #06283B;
+      height: 10vh;
+      margin-top: 0px;
+      margin-bottom:0px;
+      padding-top: 0px;
+      color: White;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75vw;
+  }
+  .headerName {
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-size: 6vw;
+  }
+  .headerName:hover {
+    color: #6598C7;
+  }
+  .projects {
+    height: 80vh;
+  }
+  .projectsGrid {
+    height: 70vh;
+    overflow: scroll;
+  }
+  .skills {
+    height: 80vh;
+  }
+  .footer {
+    display: flex;
+    font-family: 'Rock Salt', cursive;
+    background-color: #06283B;
+    height: 20vw;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-top: 10px;
+    color: #D2CED1;
+    justify-content: center;
+    font-size: 0.75vw;
+  }
+  .footerName {
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-size: 4vw;
+  }
+  .navbar {
+    background-color: #06283B;
+    font-size: 0.75vw;
+  }
+  .contactImageCells {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #D2CED1;
+  }
+  .link {
+    font-size: 7vw;
   }
 }

@@ -14,13 +14,13 @@ const Header = () => (
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-    <Navbar className='navbar'>
-    <Nav.Link className='link' href="#about">About</Nav.Link>
-    <Nav.Link className='link' href="#projects">Projects</Nav.Link>
-    <Nav.Link className='link' href="#skills">Skills</Nav.Link>
-    <Nav.Link className='link' href="https://drive.google.com/file/d/1RHEUb8sDKkWqghBvrPh-A2quwAvEApgl/view?usp=sharing" target="_blank">Resume</Nav.Link>
-    <Nav.Link className='link' href="#contact">Contact</Nav.Link>
-    </Navbar>
+    <Nav className='navbar mr-auto'>
+      <Nav.Link className='link' href="#about">About</Nav.Link>
+      <Nav.Link className='link' href="#projects">Projects</Nav.Link>
+      <Nav.Link className='link' href="#skills">Skills</Nav.Link>
+      <Nav.Link className='link' href="https://drive.google.com/file/d/1RHEUb8sDKkWqghBvrPh-A2quwAvEApgl/view?usp=sharing" target="_blank">Resume</Nav.Link>
+      <Nav.Link className='link' href="#contact">Contact</Nav.Link>
+    </Nav>
     <Navbar className='navbarsocial'>
     <div className='social'>
     <Nav.Link href="https://github.com/robrichardsdpt" target="_blank">
@@ -37,7 +37,6 @@ const Header = () => (
     <img src={envelope} alt='e-mail' className='email'/>
     </Nav.Link>
     </div>
-
     </Navbar>
     </Navbar.Collapse>
   </Navbar>

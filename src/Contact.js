@@ -34,7 +34,7 @@ const Contact = () => (
     <img src={li} alt='LinkedIn' className="contactImage" thumbnail/>
     </Col>
     <Col className="contactImageCells" xs={12} md={9}>
-    <h3>https://www.linkedin.com/in/robert-richards-pt-dpt/</h3>
+    <h3>robert-richards-pt-dpt</h3>
     </Col>
     </Row>
     <Row>
@@ -42,7 +42,7 @@ const Contact = () => (
     <img src={twitter} alt='twitter' className="contactImage" thumbnail/>
     </Col>
     <Col className="contactImageCells" xs={12} md={9}>
-    <h3>https://twitter.com/robrdpt</h3>
+    <h3>robrdpt</h3>
     </Col>
     </Row>
     </Container>

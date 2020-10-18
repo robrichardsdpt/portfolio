@@ -1,17 +1,11 @@
 import React from 'react'
-import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
+// import Col from 'react-bootstrap/Col'
+// import Container from 'react-bootstrap/Container'
 
 const Footer = () => (
   <div className="footer">
-  <Container className="footerContainer">
-  <Col xs={12} md={8}>
-  <h2> Full Stack Software Engineer * </h2>
-  </Col>
-  <Col xs={12} md={4}>
-  <h3>Boston, MA </h3>
-  </Col>
-  </Container>
+  <h2 className='footerName'> Full Stack Software Engineer * </h2>
+  <h3 className='footerName'> * Boston, MA </h3>
   </div>
 )
 
