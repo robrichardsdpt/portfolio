@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
+import running from './running.png'
 import ticTacToe from './tic-tac-toe.jpg'
 import hikeLog from './hike-log.jpg'
 import instasham from './instasham.jpg'
@@ -13,6 +14,18 @@ const Projects = () => (
   <div className="projects">
     <h1>Projects</h1>
     <Container className="projectsGrid">
+    <Row>
+    <Col size="3" className="projectCell"><Image src={running} alt="running application" className="projectImage" thumbnail/></Col>
+    <Col><h2>Do You Even Run?:  Run tracking application.</h2>
+    <p>This is a full stack application (built with ReactJS, Django/Python, and PostgresQL) that allows a user to create, read, update, and delete running activity from their secure account. This application provides the user statistics and graphical representation of their running activity. Further, API interaction was made for all images through Unsplash.</p>
+    <a href="https://github.com/robrichardsdpt/running-app" target="_blank">
+    <img src={gitHub} alt='github' className='projectIcon'/>
+    </a>
+    <a href="https://robrichardsdpt.github.io/running-app" target="_blank">
+    <img src={link} alt='website link' className='projectIcon'/>
+    </a>
+    </Col>
+    </Row>
     <Row>
     <Col size="3" className="projectCell"><Image src={ticTacToe} alt="tic tac toe" className="projectImage" thumbnail/></Col>
     <Col><h2>Tic Tac Toe</h2>
