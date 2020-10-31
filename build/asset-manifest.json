@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2825e1ff.chunk.css",
-    "main.js": "/portfolio/static/js/main.fed3aa1d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fed3aa1d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.3d2c458c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3d2c458c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.2a86faee.chunk.css": "/portfolio/static/css/2.2a86faee.chunk.css",
-    "static/js/2.b3b5a256.chunk.js": "/portfolio/static/js/2.b3b5a256.chunk.js",
-    "static/js/2.b3b5a256.chunk.js.map": "/portfolio/static/js/2.b3b5a256.chunk.js.map",
+    "static/js/2.71586f64.chunk.js": "/portfolio/static/js/2.71586f64.chunk.js",
+    "static/js/2.71586f64.chunk.js.map": "/portfolio/static/js/2.71586f64.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ccc0c838a2119ec3ceeb44bb5707367a.js": "/portfolio/precache-manifest.ccc0c838a2119ec3ceeb44bb5707367a.js",
+    "precache-manifest.359a8584fd3e5e6ed4ecdf0673b8a4a0.js": "/portfolio/precache-manifest.359a8584fd3e5e6ed4ecdf0673b8a4a0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/portfolio/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.2825e1ff.chunk.css.map": "/portfolio/static/css/main.2825e1ff.chunk.css.map",
-    "static/js/2.b3b5a256.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b3b5a256.chunk.js.LICENSE.txt",
+    "static/js/2.71586f64.chunk.js.LICENSE.txt": "/portfolio/static/js/2.71586f64.chunk.js.LICENSE.txt",
     "static/media/AJAX-Language-01.png": "/portfolio/static/media/AJAX-Language-01.fa7362e5.png",
     "static/media/Django-01.png": "/portfolio/static/media/Django-01.dce771fe.png",
     "static/media/HTML.png": "/portfolio/static/media/HTML.8d6f5740.png",
@@ -32,13 +32,14 @@
     "static/media/link.png": "/portfolio/static/media/link.5fae64fa.png",
     "static/media/mobile-phone-760.png": "/portfolio/static/media/mobile-phone-760.cb60e778.png",
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.3cf229ee.png",
+    "static/media/running.png": "/portfolio/static/media/running.0ad81363.png",
     "static/media/tic-tac-toe.jpg": "/portfolio/static/media/tic-tac-toe.f1ab0636.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.b3b5a256.chunk.js",
+    "static/js/2.71586f64.chunk.js",
     "static/css/main.2825e1ff.chunk.css",
-    "static/js/main.fed3aa1d.chunk.js"
+    "static/js/main.3d2c458c.chunk.js"
   ]
 }

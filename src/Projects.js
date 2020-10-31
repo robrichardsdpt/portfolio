@@ -29,7 +29,7 @@ const Projects = () => (
     <Row>
     <Col size="3" className="projectCell"><Image src={ticTacToe} alt="tic tac toe" className="projectImage" thumbnail/></Col>
     <Col><h2>Tic Tac Toe</h2>
-    <p>This Application allows a user to play a game of tic tac toe against themself. It tells you who wins the game or if the game end in a tie, tracks the number of games you have played to date, and allows you to have your own secure account. It communicates with an API which keeps a record of all games that you have played.</p>
+    <p>This Application allows a user to play a game of tic tac toe against a computer opponent. It tells you who wins the game or if the game end in a tie, tracks the number of games you have played to date, and allows you to have your own secure account. It communicates with an API which keeps a record of all games that you have played.</p>
     <a href="https://github.com/robrichardsdpt/tic-tac-toe-client" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
