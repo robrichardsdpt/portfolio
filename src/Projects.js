@@ -12,8 +12,12 @@ import link from './link.png'
 
 const Projects = () => (
   <div className="projects">
-    <h1>Projects</h1>
     <Container className="projectsGrid">
+    <Row>
+    <Col className="projects-header">
+    <h1>Projects</h1>
+    </Col>
+    </Row>
     <Row>
     <Col size="3" className="projectCell"><Image src={running} alt="running application" className="projectImage" thumbnail/></Col>
     <Col><h2>Do You Even Run?:  Run tracking application.</h2>

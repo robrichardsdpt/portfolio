@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .App {
   display: flex;
@@ -14,6 +15,7 @@
   flex-direction: column;
   color: white;
   padding-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
 }
 .headerName {
   font-family: 'Rock Salt', cursive;
@@ -92,15 +94,21 @@
   max-width: 125%;
 }
 
-.projects{
+.projects {
   background-color: #9193a8;
   color: #1c222e;
   height: 84vh;
   overflow: scroll;
 }
+.projects-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
 
 .skills {
-  background-color: #6598C7;
+  background-color: #9193a8;
   display: flex;
   padding-bottom: 500px;
   height: 84vh;
@@ -113,6 +121,8 @@
   width: 80vw;
   flex-wrap: wrap;
   justify-content: center;
+  border: 5px solid #D2CED1;
+  margin-top: 50px;
 }
 
 .skillsHeader {
@@ -151,7 +161,7 @@
   height: 10vw;
   margin-top: 0px;
   margin-bottom:0px;
-  padding-top: 10px;
+  padding-top: 20px;
   color: #D2CED1;
   justify-content: center;
   z-index: 10;
@@ -190,6 +200,13 @@
   width: 96px;
 }
 
+.contact-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-left: 10px;
+  background-color: #9193a8;
+}
 .contactImage {
   height: auto;
   width: 25%;
@@ -211,6 +228,12 @@
   align-items: center;
   padding: 10px;
   background-color: white;
+}
+.contact-link {
+  color: #06283B;
+}
+.contact-link:hover {
+  color: #6598C7;
 }
 
 @media only screen and (max-width: 600px) {
@@ -254,7 +277,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 0.75vw;
+      font-size: 0.5vw;
   }
   .headerName {
     font-family: 'Rock Salt', cursive;
@@ -284,7 +307,7 @@
     padding-top: 10px;
     color: #D2CED1;
     justify-content: center;
-    font-size: 0.75vw;
+    font-size: 0.5vw;
   }
   .footerName {
     font-family: 'Rock Salt', cursive;

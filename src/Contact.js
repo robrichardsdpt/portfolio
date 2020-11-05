@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import { Link } from 'react-router-dom'
 import phone from './mobile-phone-760.png'
 import email from './email.png'
 import li from './LI.png'
@@ -10,7 +11,7 @@ import twitter from './Twitter_Logo_Blue.png'
 const Contact = () => (
   <div className="contact">
     <Container>
-    <Row>
+    <Row className='contact-header'>
     <h1>How to Contact Me...</h1>
     </Row>
     <Row>
@@ -26,7 +27,7 @@ const Contact = () => (
     <img src={email} alt='email' className="contactImage" thumbnail/>
     </Col>
     <Col className="contactImageCells contactText" xs={12} md={9}>
-    <h3>robrichardsdpt@gmail.com</h3>
+    <Link className='contact-link' href="mailto:robrichardsdpt@gmail.com" target="_blank"><h3>robrichardsdpt@gmail.com</h3></Link>
     </Col>
     </Row>
     <Row>
@@ -34,7 +35,7 @@ const Contact = () => (
     <img src={li} alt='LinkedIn' className="contactImage" thumbnail/>
     </Col>
     <Col className="contactImageCells contactText" xs={12} md={9}>
-    <h3>robert-richards-pt-dpt</h3>
+    <Link className='contact-link' href="https://www.linkedin.com/in/robert-richards-pt-dpt/" target="_blank"><h3>robert-richards-pt-dpt</h3></Link>
     </Col>
     </Row>
     <Row>
@@ -42,7 +43,7 @@ const Contact = () => (
     <img src={twitter} alt='twitter' className="contactImage" thumbnail/>
     </Col>
     <Col className="contactImageCells contactText" xs={12} md={9}>
-    <h3>robrdpt</h3>
+    <Link className='contact-link' href="https://www.twitter.com/robrdpt/" target="_blank"><h3>robrdpt</h3></Link>
     </Col>
     </Row>
     </Container>
