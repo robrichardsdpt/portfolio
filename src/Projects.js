@@ -70,7 +70,7 @@ const Projects = () => (
     <Row>
     <Col size="3" className="projectCell"><Image src={instasham} alt="instasham" className="projectImage" thumbnail/></Col>
     <Col><h2>instaSham</h2>
-    <p>This is an image upload site that allows you to manage your photos, update metadata (including description and tag), and see other account photos. Similar concept to instagram.</p>
+    <p>This is an image upload site that allows you to manage your photos, update metadata (including description and tag), and see other account photos. Similar concept to instagram.  Built using MERN stack and with integration of AWS S3 to handle file storage.</p>
     <a href="https://github.com/SEI-Tigers-404BrainNotFound/group-project-front-end" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
