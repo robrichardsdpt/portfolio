@@ -44,13 +44,13 @@ const Projects = () => (
     </Col>
     </Row>
     <Row>
-    <Col size="3" className="projectCell"><Image src={ticTacToe} alt="tic tac toe" className="projectImage" thumbnail/></Col>
-    <Col><h2>Tic Tac Toe</h2>
-    <p>This Application allows a user to play a game of tic tac toe against a computer opponent. It tells you who wins the game or if the game end in a tie, tracks the number of games you have played to date, and allows you to have your own secure account. It communicates with an API which keeps a record of all games that you have played.</p>
-    <a href="https://github.com/robrichardsdpt/tic-tac-toe-client" target="_blank">
+    <Col size="3" className="projectCell"><Image src={instasham} alt="instasham" className="projectImage" thumbnail/></Col>
+    <Col><h2>instaSham</h2>
+    <p>This is an image upload site that allows you to manage your photos, update metadata (including description and tag), and see other account photos. Similar concept to instagram.  Built using MERN stack and with integration of AWS S3 to handle file storage.</p>
+    <a href="https://github.com/SEI-Tigers-404BrainNotFound/group-project-front-end" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
-    <a href="https://robrichardsdpt.github.io/tic-tac-toe-client" target="_blank">
+    <a href="https://SEI-Tigers-404BrainNotFound.github.io/group-project-front-end" target="_blank">
     <img src={link} alt='website link' className='projectIcon'/>
     </a>
     </Col>
@@ -68,13 +68,13 @@ const Projects = () => (
     </Col>
     </Row>
     <Row>
-    <Col size="3" className="projectCell"><Image src={instasham} alt="instasham" className="projectImage" thumbnail/></Col>
-    <Col><h2>instaSham</h2>
-    <p>This is an image upload site that allows you to manage your photos, update metadata (including description and tag), and see other account photos. Similar concept to instagram.  Built using MERN stack and with integration of AWS S3 to handle file storage.</p>
-    <a href="https://github.com/SEI-Tigers-404BrainNotFound/group-project-front-end" target="_blank">
+    <Col size="3" className="projectCell"><Image src={ticTacToe} alt="tic tac toe" className="projectImage" thumbnail/></Col>
+    <Col><h2>Tic Tac Toe</h2>
+    <p>This Application allows a user to play a game of tic tac toe against a computer opponent. It tells you who wins the game or if the game end in a tie, tracks the number of games you have played to date, and allows you to have your own secure account. It communicates with an API which keeps a record of all games that you have played.</p>
+    <a href="https://github.com/robrichardsdpt/tic-tac-toe-client" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
-    <a href="https://SEI-Tigers-404BrainNotFound.github.io/group-project-front-end" target="_blank">
+    <a href="https://robrichardsdpt.github.io/tic-tac-toe-client" target="_blank">
     <img src={link} alt='website link' className='projectIcon'/>
     </a>
     </Col>
