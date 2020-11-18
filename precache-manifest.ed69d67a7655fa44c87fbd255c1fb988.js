@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a143fba68a44e0d0ebf6d0406b33414",
+    "revision": "3e40f8707de9faef4fba5b1b4ca7f236",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "257d68ba6721b3c8b613",
+    "revision": "7b72ae3b8871945da7e6",
     "url": "/portfolio/static/css/main.0b06bc21.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.b78d43a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "257d68ba6721b3c8b613",
-    "url": "/portfolio/static/js/main.2d78767e.chunk.js"
+    "revision": "7b72ae3b8871945da7e6",
+    "url": "/portfolio/static/js/main.85fc0522.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -108,7 +108,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/running.0ad81363.png"
   },
   {
-    "revision": "f1ab063665f9c97030d14afeefa7f455",
-    "url": "/portfolio/static/media/tic-tac-toe.f1ab0636.jpg"
+    "revision": "19fddb68591d234731aac25891c3bc06",
+    "url": "/portfolio/static/media/tic-tac-toe-dark.19fddb68.png"
   }
 ]);
