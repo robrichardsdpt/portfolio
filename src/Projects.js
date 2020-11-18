@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import gitHub from './GitHubLight.png'
 import link from './link.png'
+import gratitude from './gratitude.png'
 
 const Projects = () => (
   <div className="projects">
@@ -26,6 +27,18 @@ const Projects = () => (
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
     <a href="https://robrichardsdpt.github.io/running-app" target="_blank">
+    <img src={link} alt='website link' className='projectIcon'/>
+    </a>
+    </Col>
+    </Row>
+    <Row>
+    <Col size="3" className="projectCell"><Image src={gratitude} alt="gratitude application" className="projectImage" thumbnail/></Col>
+    <Col><h2>gratitude</h2>
+    <p>This is a full stack application (built with ReactJS, Django/Python, and PostgresQL) that allows a user to create, read, update, and delete gratitude posts from their secure account. This application provides user the ability to like and comment on their post, as well as others.  Future versions will alow the user to follow other users.</p>
+    <a href="https://github.com/robrichardsdpt/gratitude-app" target="_blank">
+    <img src={gitHub} alt='github' className='projectIcon'/>
+    </a>
+    <a href="https://robrichardsdpt.github.io/gratitude-app" target="_blank">
     <img src={link} alt='website link' className='projectIcon'/>
     </a>
     </Col>
