@@ -115,18 +115,18 @@
 }
 
 .skillsContainer {
-  background-color: #6598C7;
   display: flex;
   flex-direction: row;
   width: 80vw;
   flex-wrap: wrap;
   justify-content: center;
-  border: 5px solid #D2CED1;
   margin-top: 50px;
 }
 
 .skillsHeader {
   display: flex;
+  font-size: 1.25rem;
+  align-items: center;
 }
 
 .skillsImage {
