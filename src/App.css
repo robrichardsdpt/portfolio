@@ -330,7 +330,10 @@
     justify-content: center;
   }
   .link {
-    font-size: 7vw;
+    font-size: 5vw;
+  }
+  .link:hover {
+    font-size: 5vw;
   }
 }
 
