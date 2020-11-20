@@ -79,6 +79,9 @@
 .aboutContainer {
   background-color: red;
 }
+.namecol {
+  margin-right: 25px;
+}
 .about {
   background-color: #D2CED1;
   height: 84vh;
