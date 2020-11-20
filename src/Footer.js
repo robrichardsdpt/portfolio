@@ -4,8 +4,8 @@ import React from 'react'
 
 const Footer = () => (
   <div className="footer">
-  <h2 className='footerName'> Full Stack Software Engineer * </h2>
-  <h3 className='footerName'> * Boston, MA </h3>
+  <h4 className='footerName'> Full Stack Software Engineer </h4>
+  <h4 className='footerName'> Boston, MA </h4>
   </div>
 )
 

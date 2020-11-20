@@ -12,12 +12,7 @@ import Footer from './Footer'
 
 const App = () => (
     <div>
-    <Route path='/' component={Header} />
-  {/*  <div className="App">
-      <h1>Rob Richards</h1>
-      <h2>Full Stack Software Engineer</h2>
-      <h3>Boston, MA</h3>
-    </div> */}
+      <Route path='/' component={Header} />
       <Route exact path='/' component={Home} />
       <Route path='/about' component={About} />
       <Route path='/projects' component={Projects} />
