@@ -7,10 +7,11 @@ import phone from './mobile-phone-760.png'
 import email from './email.png'
 import li from './LI.png'
 import twitter from './Twitter_Logo_Blue.png'
+import Carousel3 from './Carousel3'
 
 const Contact = () => (
   <div className="contact">
-    <Container>
+    <Container className= 'contactCont'>
     <Row className='contact-header'>
     <h1>How to Contact Me...</h1>
     </Row>
@@ -47,6 +48,7 @@ const Contact = () => (
     </Col>
     </Row>
     </Container>
+    <Carousel3/>
   </div>
 )
 

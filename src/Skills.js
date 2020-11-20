@@ -7,7 +7,6 @@ import cssLogo from './css3-logo.png'
 import jsLogo from './javaScript-logo.png'
 import jquery from './JQuery-01.png'
 import nodeJS from './Node-JS-01.png'
-import markdown from './Markdown-01.png'
 import python from './python-logo.png'
 import mongoDB from './MongoDB-01.png'
 import mongoose from './mongoose.png'
@@ -15,6 +14,7 @@ import reactLogo from './react.png'
 import django from './Django-01.png'
 import ajax from './AJAX-Language-01.png'
 import sass from './Sass-01.png'
+import Carousel from './Carousel'
 
 const Skills = () => (
   <div className="skills">
@@ -22,7 +22,7 @@ const Skills = () => (
     <Row>
     <h1 className='skillsText'>Some of my technology skills include:</h1>
     </Row>
-    <Row>
+    <Row className='skillsContent'>
     <Col xs={4} md={2} className='skillCol'>
     <img src={html} alt='html' className='skillsImage'/>
     </Col>
@@ -60,6 +60,7 @@ const Skills = () => (
     <img src={sass} alt='sass' className='skillsImage'/>
     </Col>
     </Row>
+    <Carousel/>
   </Container>
   </div>
 )

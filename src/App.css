@@ -124,6 +124,11 @@
   display: flex;
   padding-bottom: 500px;
   height: 84vh;
+  overflow: scroll;
+}
+
+.contactCont {
+  margin-bottom: 50px;
 }
 
 .skillsContainer {
@@ -235,6 +240,9 @@
   display: flex;
   justify-content: flex-end;
 }
+.skillsContent {
+  padding-bottom: 50px;
+}
 .contactImageCells {
   display: flex;
   align-items: center;
@@ -310,6 +318,7 @@
   }
   .skills {
     height: 80vh;
+    overflow: scroll;
   }
   .footer {
     display: flex;
@@ -432,6 +441,10 @@
     color: #D2CED1;
     justify-content: space-between;
     font-size: 0.75vw;
+  }
+  .carousel {
+    display:flex;
+    flex-direction: column;
   }
   .footerName {
     font-family: 'Raleway', cursive;
