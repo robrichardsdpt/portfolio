@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "016774398ff04ff491caa6ef9f2bf4fb",
+    "revision": "13920bb4af82a925e0d90a36897284b3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ed6db8760d15065b0da5",
+    "revision": "d660e6973f4ec400a6cf",
     "url": "/portfolio/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "b069975bf4bf884331c5",
-    "url": "/portfolio/static/css/main.7501166b.chunk.css"
+    "revision": "3a2aeea3fa8f8cd650f4",
+    "url": "/portfolio/static/css/main.9f190794.chunk.css"
   },
   {
-    "revision": "ed6db8760d15065b0da5",
-    "url": "/portfolio/static/js/2.345dafde.chunk.js"
+    "revision": "d660e6973f4ec400a6cf",
+    "url": "/portfolio/static/js/2.fae6fb04.chunk.js"
   },
   {
     "revision": "1b9cc396521eecb2045c787139670fba",
-    "url": "/portfolio/static/js/2.345dafde.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.fae6fb04.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b069975bf4bf884331c5",
-    "url": "/portfolio/static/js/main.32ceed7b.chunk.js"
+    "revision": "3a2aeea3fa8f8cd650f4",
+    "url": "/portfolio/static/js/main.41a2af56.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -60,16 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Sass-01.54d4c686.png"
   },
   {
-    "revision": "c6c162a64c1362b85a66f2935e71c04a",
-    "url": "/portfolio/static/media/USAPL.c6c162a6.jpg"
-  },
-  {
     "revision": "83553b6d96feda7c11a0cf2389d3e64e",
     "url": "/portfolio/static/media/bondcliff.83553b6d.jpg"
-  },
-  {
-    "revision": "1b677d298eb2082fe93a3fa4c61a67da",
-    "url": "/portfolio/static/media/coaching.1b677d29.JPG"
   },
   {
     "revision": "8f047bb893c3c4ee94de0832935d7c89",
@@ -122,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb60e778aed36744ff1ccdeb2789d02c",
     "url": "/portfolio/static/media/mobile-phone-760.cb60e778.png"
-  },
-  {
-    "revision": "87dba14c12389aa21b2f2929d75e86f4",
-    "url": "/portfolio/static/media/presidentials.87dba14c.jpg"
   },
   {
     "revision": "3cf229eedc092549277e8859aad2fca5",
