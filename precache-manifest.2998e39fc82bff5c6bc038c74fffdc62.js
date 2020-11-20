@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "465517d144a70daa517b11f41ae9098e",
+    "revision": "016774398ff04ff491caa6ef9f2bf4fb",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "10b058e3f5e9a9df8353",
+    "revision": "ed6db8760d15065b0da5",
     "url": "/portfolio/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "e74a540275bfad2b0a8f",
-    "url": "/portfolio/static/css/main.ba971538.chunk.css"
+    "revision": "b069975bf4bf884331c5",
+    "url": "/portfolio/static/css/main.7501166b.chunk.css"
   },
   {
-    "revision": "10b058e3f5e9a9df8353",
-    "url": "/portfolio/static/js/2.6f9bab97.chunk.js"
+    "revision": "ed6db8760d15065b0da5",
+    "url": "/portfolio/static/js/2.345dafde.chunk.js"
   },
   {
-    "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/portfolio/static/js/2.6f9bab97.chunk.js.LICENSE.txt"
+    "revision": "1b9cc396521eecb2045c787139670fba",
+    "url": "/portfolio/static/js/2.345dafde.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e74a540275bfad2b0a8f",
-    "url": "/portfolio/static/js/main.41573a45.chunk.js"
+    "revision": "b069975bf4bf884331c5",
+    "url": "/portfolio/static/js/main.32ceed7b.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -44,10 +44,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/JQuery-01.bb8e6034.png"
   },
   {
-    "revision": "6bc7d60a8b7c8d5d8f0e0b822331293e",
-    "url": "/portfolio/static/media/Markdown-01.6bc7d60a.png"
-  },
-  {
     "revision": "0c3452f69be25b8c1926af57d8ae90fd",
     "url": "/portfolio/static/media/MongoDB-01.0c3452f6.png"
   },
@@ -64,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Sass-01.54d4c686.png"
   },
   {
+    "revision": "c6c162a64c1362b85a66f2935e71c04a",
+    "url": "/portfolio/static/media/USAPL.c6c162a6.jpg"
+  },
+  {
     "revision": "83553b6d96feda7c11a0cf2389d3e64e",
     "url": "/portfolio/static/media/bondcliff.83553b6d.jpg"
+  },
+  {
+    "revision": "1b677d298eb2082fe93a3fa4c61a67da",
+    "url": "/portfolio/static/media/coaching.1b677d29.JPG"
   },
   {
     "revision": "8f047bb893c3c4ee94de0832935d7c89",
@@ -80,8 +84,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gratitude.50027512.png"
   },
   {
+    "revision": "2592dbb1247d13ed19969021689026b9",
+    "url": "/portfolio/static/media/greecespartan.2592dbb1.jpg"
+  },
+  {
     "revision": "5575261e512cd863df2cd6596efb2dab",
     "url": "/portfolio/static/media/hike-log.5575261e.jpg"
+  },
+  {
+    "revision": "a1ebc54bca520b57207c00d65e98eec4",
+    "url": "/portfolio/static/media/hockeyCT.a1ebc54b.JPG"
+  },
+  {
+    "revision": "720a7e0a1735f17590c7fe4eb4a0c1ea",
+    "url": "/portfolio/static/media/hockeyCT2.720a7e0a.JPG"
   },
   {
     "revision": "50972978c30dab21408784ba57aac04a",
@@ -96,8 +112,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/link.5fae64fa.png"
   },
   {
+    "revision": "fe72b94cea8bbe650989adc8b387abcc",
+    "url": "/portfolio/static/media/lookingout.fe72b94c.JPG"
+  },
+  {
+    "revision": "dcbb96c9009e8b234886eb699ae0b3d3",
+    "url": "/portfolio/static/media/mnspartan.dcbb96c9.JPG"
+  },
+  {
     "revision": "cb60e778aed36744ff1ccdeb2789d02c",
     "url": "/portfolio/static/media/mobile-phone-760.cb60e778.png"
+  },
+  {
+    "revision": "87dba14c12389aa21b2f2929d75e86f4",
+    "url": "/portfolio/static/media/presidentials.87dba14c.jpg"
   },
   {
     "revision": "3cf229eedc092549277e8859aad2fca5",
@@ -106,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ad813630737a2dbfbd42394521bd332",
     "url": "/portfolio/static/media/running.0ad81363.png"
+  },
+  {
+    "revision": "9a9cac47ce06a142e5841e57907b7d8c",
+    "url": "/portfolio/static/media/sunrise.9a9cac47.jpg"
   },
   {
     "revision": "19fddb68591d234731aac25891c3bc06",
