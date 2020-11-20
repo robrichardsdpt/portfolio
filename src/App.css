@@ -127,6 +127,9 @@
   overflow: scroll;
 }
 
+.carouselAbout {
+  margin-top: 75px;
+}
 .contactCont {
   margin-bottom: 50px;
 }

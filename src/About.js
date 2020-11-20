@@ -3,7 +3,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import self from './RRichardsfull.jpg'
-import Carousel from './Carousel2'
 
 
 const About = () => (
@@ -21,9 +20,8 @@ const About = () => (
       <Col s={12} md={6} className='aboutPic'>
         <Image src={self} alt="About Me" className='self' roundedCircle/>
       </Col>
-      <Carousel/>
     </Row>
-</div>  
+</div>
 </div>
 
 )
