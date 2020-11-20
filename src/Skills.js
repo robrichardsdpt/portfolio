@@ -19,50 +19,44 @@ import sass from './Sass-01.png'
 const Skills = () => (
   <div className="skills">
   <Container className="skillsContainer">
-    <Row className='skillsHeader'>
-    <h1>Some of my technology skills include:</h1>
+    <Row>
+    <h1 className='skillsText'>Some of my technology skills include:</h1>
     </Row>
     <Row>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={html} alt='html' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={cssLogo} alt='css' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={jsLogo} alt='js' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={jquery} alt='jquery' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={nodeJS} alt='nodeJS' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
-    <img src={markdown} alt='markdown' className='skillsImage'/>
-    </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={python} alt='python' className='skillsImage'/>
     </Col>
-    </Row>
-
-    <Row>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={mongoDB} alt='mongoDB' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={mongoose} alt='mongoose' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={reactLogo} alt='react' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={django} alt='django' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={ajax} alt='ajax' className='skillsImage'/>
     </Col>
-    <Col className='skillCol'>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={sass} alt='sass' className='skillsImage'/>
     </Col>
     </Row>
