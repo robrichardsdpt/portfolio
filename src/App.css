@@ -164,7 +164,6 @@
 
 .footer {
   display: flex;
-  font-family: 'Rock Salt', cursive;
   background-color: #06283B;
   height: 10vw;
   margin-top: 0px;
@@ -311,19 +310,21 @@
   }
   .footer {
     display: flex;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Raleway', cursive;
     background-color: #06283B;
     height: 20vw;
     margin-top: 0px;
     margin-bottom:0px;
     padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #D2CED1;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 0.5vw;
   }
   .footerName {
-    font-family: 'Rock Salt', cursive;
-    color: white;
+    font-family: 'Raleway', cursive;
+    color: D2CED1;
     font-size: 4vw;
   }
   .navbar {
@@ -413,7 +414,7 @@
   }
   .footer {
     display: flex;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Raleway', cursive;
     background-color: #06283B;
     height: 20vw;
     margin-top: 0px;
@@ -424,7 +425,7 @@
     font-size: 0.75vw;
   }
   .footerName {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Raleway', cursive;
     color: white;
     font-size: 4vw;
   }
