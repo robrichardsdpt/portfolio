@@ -100,10 +100,18 @@
 }
 .name {
   font-family: 'Rock Salt', cursive;
+  text-shadow: 3px 3px steelblue;
 }
 .self {
   height: auto;
   max-width: 125%;
+}
+
+.highlight {
+  color: steelblue;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .projects {
