@@ -101,6 +101,12 @@
 .name {
   font-family: 'Rock Salt', cursive;
   text-shadow: 3px 3px steelblue;
+  font-style: normal;
+}
+.namecol {
+  font-weight: bolder;
+  text-shadow: 2px 2px steelblue;
+  font-style: italic;
 }
 .self {
   height: auto;
