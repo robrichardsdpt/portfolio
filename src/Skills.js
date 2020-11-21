@@ -20,7 +20,7 @@ const Skills = () => (
   <div className="skills">
   <Container className="skillsContainer">
     <Row>
-    <h1 className='skillsText'>Some of my technology skills include:</h1>
+    <h1 className='skillsText name'>Technology skills include:</h1>
     </Row>
     <Row className='skillsContent'>
     <Col xs={4} md={2} className='skillCol'>

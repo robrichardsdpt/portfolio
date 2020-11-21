@@ -16,7 +16,7 @@ const Projects = () => (
     <Container className="projectsGrid">
     <Row>
     <Col className="projects-header">
-    <h1>Projects</h1>
+    <h1 className='name'>Projects</h1>
     </Col>
     </Row>
     <Row>

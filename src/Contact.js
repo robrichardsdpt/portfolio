@@ -13,7 +13,7 @@ const Contact = () => (
   <div className="contact">
     <Container className= 'contactCont'>
     <Row className='contact-header'>
-    <h1>How to Contact Me...</h1>
+    <h1 className='name'>Contact me...</h1>
     </Row>
     <Row>
     <Col className="contactImageCells contactIcons" xs={12} md={3}>
