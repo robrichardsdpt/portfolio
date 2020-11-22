@@ -17,6 +17,76 @@
   padding-bottom: 0px;
   font-family: 'Raleway', sans-serif;
 }
+.highlights {
+  display: flex;
+  font-size: 1.75rem;
+}
+.highlightscontainer {
+  background: gray;
+}
+.apple {
+  color: #C30000;
+}
+.appleText {
+  display: none;
+}
+.apple:hover .appleText {
+  display: block;
+  color: black;
+}
+.weightlifter {
+  color: #0000C3;
+}
+.weightlifterText {
+  display:none;
+  font-size: 1.75rem;
+}
+.weightlifter:hover .weightlifterText {
+  display:block;
+  color: black;
+}
+.graduationText {
+  display:none;
+}
+.graduation:hover .graduationText {
+  display:block;
+}
+.spartan {
+  color: #C30000;
+}
+.spartanText {
+  color: black;
+  display: none;
+}
+.spartan:hover .spartanText {
+  display:block
+}
+.hiker {
+  color: #00C3C3;
+}
+.hikerText {
+  color: black;
+  display:none;
+}
+.hiker:hover .hikerText {
+  display: block;
+}
+.hockeyText {
+  display: none;
+}
+.hockey:hover .hockeyText {
+  display:block;
+}
+.laptop {
+  color: #FCFCFC;
+}
+.laptopText {
+  color: black;
+  display: none
+}
+.laptop:hover .laptopText {
+  display: block;
+}
 .headerName {
   font-family: 'Rock Salt', cursive;
   color: white;

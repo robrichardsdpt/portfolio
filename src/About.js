@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import self from './RRichardsfull.jpg'
 
-
 const About = () => (
   <div className="aboutContainer">
   <div className="about">
@@ -21,9 +20,8 @@ const About = () => (
         <Image src={self} alt="About Me" className='self' roundedCircle/>
       </Col>
     </Row>
+  </div>
 </div>
-</div>
-
 )
 
 export default About
