@@ -107,6 +107,7 @@
   font-weight: bolder;
   text-shadow: 2px 2px steelblue;
   font-style: italic;
+  margin-bottom: 20px;
 }
 .self {
   height: auto;
