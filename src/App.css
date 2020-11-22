@@ -162,6 +162,7 @@
   display: flex;
   font-size: 1.25rem;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .skillsImage {
@@ -241,8 +242,7 @@
   margin-top: 50px;
   padding-left: 10px;
   padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #9193a8;
+  padding-bottom: 20px;
 }
 .contactImage {
   height: auto;
