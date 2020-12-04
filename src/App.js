@@ -12,7 +12,7 @@ import Footer from './Footer'
 
 const App = () => (
     <div>
-      <Route path='/' component={Header} />
+    <Route path='/' component={Header} />
       <Route exact path='/' component={Home} />
       <Route path='/about' component={About} />
       <Route path='/projects' component={Projects} />
