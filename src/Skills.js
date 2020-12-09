@@ -14,6 +14,9 @@ import reactLogo from './react.png'
 import django from './Django-01.png'
 import ajax from './AJAX-Language-01.png'
 import sass from './Sass-01.png'
+import redux from './redux-logo-landscape.png'
+import mysql from './MySQL.png'
+import firebase from './firebase.png'
 import Carousel from './Carousel'
 
 const Skills = () => (
@@ -42,6 +45,9 @@ const Skills = () => (
     <img src={python} alt='python' className='skillsImage'/>
     </Col>
     <Col xs={4} md={2} className='skillCol'>
+    <img src={django} alt='django' className='skillsImage'/>
+    </Col>
+    <Col xs={4} md={2} className='skillCol'>
     <img src={mongoDB} alt='mongoDB' className='skillsImage'/>
     </Col>
     <Col xs={4} md={2} className='skillCol'>
@@ -51,13 +57,19 @@ const Skills = () => (
     <img src={reactLogo} alt='react' className='skillsImage'/>
     </Col>
     <Col xs={4} md={2} className='skillCol'>
-    <img src={django} alt='django' className='skillsImage'/>
+    <img src={redux} alt='redux' className='skillsImage'/>
     </Col>
     <Col xs={4} md={2} className='skillCol'>
     <img src={ajax} alt='ajax' className='skillsImage'/>
     </Col>
     <Col xs={4} md={2} className='skillCol'>
     <img src={sass} alt='sass' className='skillsImage'/>
+    </Col>
+    <Col xs={4} md={2} className='skillCol'>
+    <img src={mysql} alt='mysql' className='skillsImage'/>
+    </Col>
+    <Col xs={4} md={2} className='skillCol'>
+    <img src={firebase} alt='firebase' className='skillsImage'/>
     </Col>
     </Row>
     <Carousel/>
