@@ -6,7 +6,6 @@ import Home from './Home'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import Resume from './Resume'
 import Contact from './Contact'
 import Footer from './Footer'
 
@@ -17,7 +16,6 @@ const App = () => (
       <Route path='/about' component={About} />
       <Route path='/projects' component={Projects} />
       <Route path='/skills' component={Skills} />
-      <Route path='/resume' component={Resume} />
       <Route path='/contact' component={Contact} />
       <Route path='/' component={Footer} />
   </div>
