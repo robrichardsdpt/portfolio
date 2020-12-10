@@ -13,12 +13,12 @@ import gratitude from './gratitude.png'
 import Carousel from './Carousel'
 
 const Projects = () => (
-  <div className="projects" id='projects'>
+  <div className="projects">
     <Carousel/>
     <Container className="projectsGrid">
     <Row>
     <Col className="projects-header">
-    <h1 className='name'>Projects</h1>
+    <h1 className='name' id='projects'>Projects</h1>
     </Col>
     </Row>
 
