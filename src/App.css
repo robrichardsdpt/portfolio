@@ -260,7 +260,7 @@ background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(231,247,255,1) 5
   background-color: white;
   justify-content: center;
   border-radius: 15px;
-  box-shadow: 10px 5px rgba(0,0,0, 0.5);
+  box-shadow: 5px 5px rgba(133,166,214,1);
 }
 .skillColContainer {
   display: flex;
@@ -298,6 +298,9 @@ background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(231,247,255,1) 5
   height: 85vh;
   z-index: 1
 }
+.project{
+  margin-bottom: 50px;
+}
 .projectGrid {
   display: flex;
   max-width: 1800px;
@@ -316,6 +319,17 @@ background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(231,247,255,1) 5
 .projectCell {
   height: 400px;
   width: 700px;
+  display: flex;
+  justify-content: center;
+}
+.linkCell {
+  display: flex;
+  justify-content: center;
+}
+.project-desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .projectIcon {
