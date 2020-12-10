@@ -212,7 +212,7 @@
   background: linear-gradient(90deg, rgba(93,100,105,1) 0%, rgba(18,23,25,1) 50%, rgba(93,100,105,1) 100%);
   display: flex;
   color: white;
-  padding-bottom: 500px;
+  padding-bottom: 50px;
   /* height: 84vh; */
   /* overflow: scroll; */
 }

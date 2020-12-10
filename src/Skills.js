@@ -20,7 +20,7 @@ import git from './skills/git.png'
 import express from './skills/Express.png'
 import npm from './skills/NPM.png'
 import github from './skills/GitHub.png'
-import Carousel from './Carousel'
+// import Carousel from './Carousel'
 
 const Skills = () => (
   <div className="skills" id='skills'>
@@ -169,8 +169,6 @@ const Skills = () => (
     </div>
     <p className='centered-text'>NPM</p>
     </Col>
-
-    <Carousel/>
   </Container>
   </div>
 )
