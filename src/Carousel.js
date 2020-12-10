@@ -5,11 +5,13 @@ import {
   MDBCarouselItem,
   MDBView,
   MDBMask,
-  MDBContainer
+  MDBContainer, MDBCarouselCaption
 } from "mdbreact"
 import greecespartan from './greecespartan.jpg'
 import hockeyCT from './hockeyCT.JPG'
 import sunrise from './sunrise.jpg'
+import lookingout from './lookingout.JPG'
+import usapl from './IMG_1018.PNG'
 
 class CarouselPage extends Component {
   render() {
@@ -17,10 +19,10 @@ class CarouselPage extends Component {
       <MDBContainer>
         <MDBCarousel
           activeItem={1}
-          length={3}
+          length={5}
           showControls={true}
           showIndicators={true}
-          className="z-depth-1"
+          className="z-depth-4"
         >
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
@@ -30,8 +32,15 @@ class CarouselPage extends Component {
                   src={greecespartan}
                   alt="First slide"
                 />
-                <MDBMask overlay="black-light" />
+                <MDBMask overlay="black-strong" />
               </MDBView>
+              <MDBCarouselCaption>
+              <div className='dark-opacity'>
+            <h3 className="h3-responsive">Obstacle Course Racer</h3>
+            <p>Spartan World Trifecta Championship</p>
+            <p>Sparta, Greece - 2018</p>
+            </div>
+            </MDBCarouselCaption>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
               <MDBView>
@@ -42,6 +51,13 @@ class CarouselPage extends Component {
                 />
                 <MDBMask overlay="black-strong" />
               </MDBView>
+              <MDBCarouselCaption>
+              <div className='dark-opacity'>
+            <h3 className="h3-responsive">Hockey Player</h3>
+            <p>Stephen Lambert Memorial Hockey Tournament</p>
+            <p>Groton, CT - 2018</p>
+            </div>
+            </MDBCarouselCaption>
             </MDBCarouselItem>
             <MDBCarouselItem itemId="3">
               <MDBView>
@@ -50,8 +66,50 @@ class CarouselPage extends Component {
                   src={sunrise}
                   alt="Third slide"
                 />
-                <MDBMask overlay="black-slight" />
+                <MDBMask overlay="black-strong" />
               </MDBView>
+              <MDBCarouselCaption>
+
+            <div className='dark-opacity'>
+          <h3 className="h3-responsive">Adventurer</h3>
+          <p>Single day Pemi loop traversal.</p>
+          <p>White Mountains, NH - 2020</p>
+          </div>
+            </MDBCarouselCaption>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="4">
+              <MDBView>
+                <img
+                  className="d-block w-100"
+                  src={lookingout}
+                  alt="Fourth slide"
+                />
+                <MDBMask overlay="black-strong" />
+              </MDBView>
+              <MDBCarouselCaption>
+              <div className='dark-opacity'>
+            <h3 className="h3-responsive">Hiker</h3>
+            <p>Completed the 48 4,000ft summits in the White Mountains.</p>
+            <p>New Hampshire - 2020</p>
+            </div>
+            </MDBCarouselCaption>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="5">
+              <MDBView>
+                <img
+                  className="d-block w-100"
+                  src={usapl}
+                  alt="Fifth slide"
+                />
+                <MDBMask overlay="black-strong" />
+              </MDBView>
+              <MDBCarouselCaption>
+              <div className='dark-opacity'>
+            <h3 className="h3-responsive">USAPL Powerlifter</h3>
+            <p>USAPL Massachussets Regional- 470lb Deadlift</p>
+            <p>Needham Heights, Massachussets - 2019</p>
+            </div>
+            </MDBCarouselCaption>
             </MDBCarouselItem>
           </MDBCarouselInner>
         </MDBCarousel>

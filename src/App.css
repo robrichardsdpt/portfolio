@@ -15,6 +15,11 @@
   padding-bottom: 0px;
   font-family: 'Raleway', sans-serif;
 }
+.dark-opacity{
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  border-radius: 15px;
+}
 .highlights {
   display: flex;
   font-size: 1.75rem;

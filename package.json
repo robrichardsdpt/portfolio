@@ -17,6 +17,7 @@
     "react-bootstrap-icons": "^1.0.0",
     "react-dom": "^16.14.0",
     "react-icons": "^3.11.0",
+    "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",

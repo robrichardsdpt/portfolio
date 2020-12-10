@@ -10,9 +10,11 @@ import Row from 'react-bootstrap/Row'
 import gitHub from './GitHubLight.png'
 import link from './link.png'
 import gratitude from './gratitude.png'
+import Carousel from './Carousel'
 
 const Projects = () => (
   <div className="projects" id='projects'>
+    <Carousel/>
     <Container className="projectsGrid">
     <Row>
     <Col className="projects-header">
@@ -22,7 +24,7 @@ const Projects = () => (
 
     <Row className='project'>
     <Col sm={12}> <h2 className='projectTitle'>Do You Even Run?:</h2> <h3 className='projectSubTitle'>Run tracking application.</h3></Col>
-    <Col sm={12} lg={10} className="projectCell"><Image src={running} alt="running application" className="projectImage" thumbnail/></Col>
+    <Col sm={12} lg={10} className="projectCell"><a href="https://robrichardsdpt.github.io/running-app" target="_blank"><Image src={running} alt="running application" className="projectImage" thumbnail/></a></Col>
     <Col sm={12} lg={2} className="linkCell"><a href="https://github.com/robrichardsdpt/running-app" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
@@ -44,7 +46,7 @@ const Projects = () => (
 
     <Row className='project'>
     <Col sm={12}><h2 className='projectTitle'>grateful: </h2><h3 className='projectSubTitle'>A social media platform to share what you are grateful for.</h3></Col>
-    <Col sm={12} lg={10} className="projectCell"><Image src={gratitude} alt="gratitude application" className="projectImage" thumbnail/></Col>
+    <Col sm={12} lg={10} className="projectCell">  <a href="https://robrichardsdpt.github.io/gratitude-app" target="_blank"><Image src={gratitude} alt="gratitude application" className="projectImage" thumbnail/></a></Col>
     <Col sm={12} lg={2} className="linkCell"><a href="https://github.com/robrichardsdpt/gratitude-app" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
@@ -65,7 +67,7 @@ const Projects = () => (
 
     <Row className='project'>
     <Col sm={12}><h2 className='projectTitle'>instaSham:</h2><h3 className='projectSubTitle'>A social media image share application.</h3></Col>
-    <Col sm={10} className="projectCell"><Image src={instasham} alt="instasham" className="projectImage" thumbnail/></Col>
+    <Col sm={10} className="projectCell">  <a href="https://SEI-Tigers-404BrainNotFound.github.io/group-project-front-end" target="_blank"><Image src={instasham} alt="instasham" className="projectImage" thumbnail/></a></Col>
     <Col sm={2} className='linkCell'><a href="https://github.com/SEI-Tigers-404BrainNotFound/group-project-front-end" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
     </a>
@@ -84,7 +86,7 @@ const Projects = () => (
 
     <Row className='project'>
     <Col sm={12}><h2 className='projectTitle'>hikeLog:</h2><h3 className='projectSubTitle'>Personal hike tracking database.</h3></Col>
-    <Col sm={10} className="projectCell"><Image src={hikeLog} alt="hiking log" className="projectImage" thumbnail/></Col>
+    <Col sm={10} className="projectCell"><a href="https://robrichardsdpt.github.io/hike-tracker-client" target="_blank"><Image src={hikeLog} alt="hiking log" className="projectImage" thumbnail/></a></Col>
     <Col sm={2} className='linkCell'>
     <a href="https://github.com/robrichardsdpt/hike-tracker-client" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
@@ -105,7 +107,7 @@ const Projects = () => (
 
     <Row className='project'>
     <Col sm={12}><h2 className='projectTitle'>Tic Tac Toe:</h2><h3 className='projectSubTitle'>A new spin on a classic game.</h3></Col>
-    <Col sm={10} className="projectCell"><Image src={ticTacToe} alt="tic tac toe" className="projectImage" thumbnail/></Col>
+    <Col sm={10} className="projectCell"><a href="https://robrichardsdpt.github.io/tic-tac-toe-client" target="_blank"><Image src={ticTacToe} alt="tic tac toe" className="projectImage" thumbnail/></a></Col>
     <Col sm={2} className='linkCell'>
     <a href="https://github.com/robrichardsdpt/tic-tac-toe-client" target="_blank">
     <img src={gitHub} alt='github' className='projectIcon'/>
