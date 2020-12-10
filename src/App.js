@@ -12,11 +12,11 @@ import Footer from './Footer'
 const App = () => (
     <div>
     <Route path='/' component={Header} />
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
-      <Route path='/projects' component={Projects} />
-      <Route path='/skills' component={Skills} />
-      <Route path='/contact' component={Contact} />
+      <Route path='/' component={Home} />
+      <Route path='/' component={About} />
+      <Route path='/' component={Projects} />
+      <Route path='/' component={Skills} />
+      <Route path='/' component={Contact} />
       <Route path='/' component={Footer} />
   </div>
 )
