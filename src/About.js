@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image'
 import self from './RRichardsfull.jpg'
 
 const About = () => (
-  <div className="aboutContainer">
+  <div className="aboutContainer" id='about'>
   <div className="about">
     <Row>
       <Col className="namecol">

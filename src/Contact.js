@@ -10,7 +10,7 @@ import twitter from './Twitter_Logo_Blue.png'
 import Carousel2 from './Carousel2'
 
 const Contact = () => (
-  <div className="contact">
+  <div className="contact" id='contact'>
     <Container className= 'contactCont'>
       <Row className='contact-header'>
         <h1 className='name'>Contact me...</h1>

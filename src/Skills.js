@@ -23,7 +23,7 @@ import github from './skills/GitHub.png'
 import Carousel from './Carousel'
 
 const Skills = () => (
-  <div className="skills">
+  <div className="skills" id='skills'>
   <Container className="skillsContainer">
     <h1 className='skillsText name'>Skills:</h1>
     <Col xl={12}>

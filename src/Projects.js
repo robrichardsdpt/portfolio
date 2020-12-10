@@ -12,7 +12,7 @@ import link from './link.png'
 import gratitude from './gratitude.png'
 
 const Projects = () => (
-  <div className="projects">
+  <div className="projects" id='projects'>
     <Container className="projectsGrid">
     <Row>
     <Col className="projects-header">
