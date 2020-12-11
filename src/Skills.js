@@ -1,5 +1,4 @@
 import React from 'react'
-import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import html from './skills/HTML (1).png'
@@ -20,7 +19,6 @@ import git from './skills/git.png'
 import express from './skills/Express.png'
 import npm from './skills/NPM.png'
 import github from './skills/GitHub.png'
-import Carousel from './Carousel'
 
 const Skills = () => (
   <div className="skills" id='skills'>
