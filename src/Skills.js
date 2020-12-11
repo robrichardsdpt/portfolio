@@ -27,7 +27,7 @@ const Skills = () => (
   <Container className="skillsContainer">
     <h1 className='skillsText name'>Skills:</h1>
     <Col xl={12}>
-    <h2>Languages:</h2>
+    <h2 className='skills-label'>Languages:</h2>
     </Col>
 
     <Col s={6} md={4} lg={2} className='skillColContainer'>
@@ -60,7 +60,7 @@ const Skills = () => (
     </Col>
 
     <Col xl={12}>
-      <h2>Front-End Frameworks/Libraries:</h2>
+      <h2 className='skills-label'>Front-End Frameworks/Libraries:</h2>
     </Col>
 
       <Col s={6} md={4} lg={2} className='skillColContainer'>
@@ -92,7 +92,7 @@ const Skills = () => (
     </Col>
 
     <Col xl={12}>
-    <h2>Back-End Frameworks/Libraries/Databases:</h2>
+    <h2 className='skills-label'>Back-End Frameworks/Libraries/Databases:</h2>
     </Col>
 
       <Col s={6} md={4} lg={2} className='skillColContainer'>
@@ -139,7 +139,7 @@ const Skills = () => (
     </Col>
 
     <Col xl={12}>
-    <h2>Management/Deployment:</h2>
+    <h2 className='skills-label'>Management/Deployment:</h2>
     </Col>
 
     <Col s={6} md={4} lg={2} className='skillColContainer'>

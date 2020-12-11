@@ -401,6 +401,12 @@
 .skillsContent {
   padding-bottom: 50px;
 }
+.skills-label {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  text-shadow: 2px 2px steelblue;
+}
 .contactImageCells {
   display: flex;
   align-items: center;
@@ -415,6 +421,9 @@
 }
 .bolder {
   font-weight: bolder;
+}
+.skillsText {
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
