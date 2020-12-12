@@ -10,11 +10,11 @@ import Row from 'react-bootstrap/Row'
 import gitHub from './GitHubLight.png'
 import link from './link.png'
 import gratitude from './gratitude.png'
-import Carousel from './Carousel'
+
 
 const Projects = () => (
   <div className="projects">
-    <Carousel/>
+
     <Container className="projectsGrid">
     <Row>
     <Col className="projects-header">

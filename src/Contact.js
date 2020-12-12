@@ -7,9 +7,11 @@ import email from './email.png'
 import li from './LI.png'
 import twitter from './Twitter_Logo_Blue.png'
 // import Carousel2 from './Carousel2'
+import Carousel from './Carousel'
 
 const Contact = () => (
   <div className="contact" id='contact'>
+    <Carousel/>
     <Container className= 'contactCont'>
       <Row className='contact-header'>
         <h1 className='name'>Contact me...</h1>
