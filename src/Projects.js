@@ -10,6 +10,7 @@ import Row from 'react-bootstrap/Row'
 import gitHub from './GitHubLight.png'
 import link from './link.png'
 import gratitude from './gratitude.png'
+import crwnClothing from './crwn-clothing.png'
 
 
 const Projects = () => (
@@ -43,6 +44,29 @@ const Projects = () => (
 
 
     </Row>
+
+    <Row className='project'>
+    <Col sm={12}><h2 className='projectTitle'>Crwn Clothing E-commerce Application: </h2><h3 className='projectSubTitle'>A fully scaled e-commerce application.</h3></Col>
+    <Col sm={12} lg={10} className="projectCell">  <a href="https://crwn-shop-ecommerce-live.herokuapp.com/" target="_blank"><Image src={crwnClothing} alt="gratitude application" className="projectImage" thumbnail/></a></Col>
+    <Col sm={12} lg={2} className="linkCell"><a href="https://crwn-shop-ecommerce-live.herokuapp.com/" target="_blank">
+    <img src={gitHub} alt='github' className='projectIcon'/>
+    </a>
+    <a href="https://github.com/robrichardsdpt/e-commerce" target="_blank">
+    <img src={link} alt='website link' className='projectIcon'/>
+    </a>
+    </Col>
+    <Col sm={12} lg={12} className="project-desc">
+    <p>This is a full stack application that allows a user to "purchase" items from a clothing store.</p>
+    <p>State managed through the use of Redux.</p>
+    <p>Use of Reselect for memoization of state to improve performance of site.</p>
+    <p>Can sign in using your Google Account.</p>
+    <p className='bolder'>Front-End: <span className='project-tech'>ReactJS</span> <span className='project-tech'>CSS</span> <span className='project-tech'>Sass</span> <span className='project-tech'>JavaScript</span> <span className='project-tech'>Bootstrap</span><span>Redux</span><span>Reselect</span></p>
+    <p className='bolder'>Back-End: <span className='project-tech'>Firestore</span> <span className='project-tech'>Firebase</span></p>
+    <p className='bolder'>External APIs: <span className='project-tech'>Google Auth/Firebase/Firestore</span> <span className='project-tech'>Font Awesome</span> <span className='project-tech'>Google Fonts</span></p>
+    </Col>
+
+    </Row>
+
 
     <Row className='project'>
     <Col sm={12}><h2 className='projectTitle'>grateful: </h2><h3 className='projectSubTitle'>A social media platform to share what you are grateful for.</h3></Col>
