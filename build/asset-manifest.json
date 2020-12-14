@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0781d6ae.chunk.css",
-    "main.js": "/portfolio/static/js/main.03ca1027.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.03ca1027.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3a5cf22c.chunk.css",
+    "main.js": "/portfolio/static/js/main.749ccd0c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.749ccd0c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.2a86faee.chunk.css": "/portfolio/static/css/2.2a86faee.chunk.css",
-    "static/js/2.37389c39.chunk.js": "/portfolio/static/js/2.37389c39.chunk.js",
-    "static/js/2.37389c39.chunk.js.map": "/portfolio/static/js/2.37389c39.chunk.js.map",
+    "static/js/2.2d154db1.chunk.js": "/portfolio/static/js/2.2d154db1.chunk.js",
+    "static/js/2.2d154db1.chunk.js.map": "/portfolio/static/js/2.2d154db1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a58c0c1734ca6afadf0600430e2e0087.js": "/portfolio/precache-manifest.a58c0c1734ca6afadf0600430e2e0087.js",
+    "precache-manifest.37738cc69cbe1747d11ae47ef86c0877.js": "/portfolio/precache-manifest.37738cc69cbe1747d11ae47ef86c0877.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/portfolio/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.0781d6ae.chunk.css.map": "/portfolio/static/css/main.0781d6ae.chunk.css.map",
-    "static/js/2.37389c39.chunk.js.LICENSE.txt": "/portfolio/static/js/2.37389c39.chunk.js.LICENSE.txt",
+    "static/css/main.3a5cf22c.chunk.css.map": "/portfolio/static/css/main.3a5cf22c.chunk.css.map",
+    "static/js/2.2d154db1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2d154db1.chunk.js.LICENSE.txt",
     "static/media/IMG_1018.PNG": "/portfolio/static/media/IMG_1018.7cc76a64.PNG",
     "static/media/RRichardsfull.jpg": "/portfolio/static/media/RRichardsfull.230c80bf.jpg",
     "static/media/App.css": "/portfolio/static/media/bondcliff.83553b6d.jpg",
+    "static/media/crwn-clothing.png": "/portfolio/static/media/crwn-clothing.a1602ed4.png",
     "static/media/email.png": "/portfolio/static/media/email.899e2d99.png",
     "static/media/gratitude.png": "/portfolio/static/media/gratitude.50027512.png",
     "static/media/greecespartan.jpg": "/portfolio/static/media/greecespartan.2592dbb1.jpg",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.37389c39.chunk.js",
-    "static/css/main.0781d6ae.chunk.css",
-    "static/js/main.03ca1027.chunk.js"
+    "static/js/2.2d154db1.chunk.js",
+    "static/css/main.3a5cf22c.chunk.css",
+    "static/js/main.749ccd0c.chunk.js"
   ]
 }
