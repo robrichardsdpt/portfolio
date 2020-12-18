@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df2db7540380c24bd9b434e02029a463",
+    "revision": "72ff218e184e5d774f9cb800a93506af",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "777a97f703d79662d9b9",
+    "revision": "50d8d47f2dd98e394941",
     "url": "/portfolio/static/css/main.b47542e6.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2d154db1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "777a97f703d79662d9b9",
-    "url": "/portfolio/static/js/main.a9757221.chunk.js"
+    "revision": "50d8d47f2dd98e394941",
+    "url": "/portfolio/static/js/main.1ebdf809.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
+  },
+  {
+    "revision": "718cad629dbab1b10d8bb4858cf9d210",
+    "url": "/portfolio/static/media/Github-icon.718cad62.png"
   },
   {
     "revision": "7cc76a64ef3dd10feab8fa1aa700c4b0",
@@ -86,5 +90,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19fddb68591d234731aac25891c3bc06",
     "url": "/portfolio/static/media/tic-tac-toe-dark.19fddb68.png"
+  },
+  {
+    "revision": "e5e73c4859a3cd706118e612933e9818",
+    "url": "/portfolio/static/media/twitter-icon.e5e73c48.png"
   }
 ]);
