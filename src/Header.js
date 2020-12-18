@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import gitHub from './GitHubLight.png'
 import li from './LI.png'
-import envelope from './email.png'
+import envelope from './logo-gmail.png'
 
 const Header = () => (
   <Nav className='nav'>
@@ -18,7 +18,7 @@ const Header = () => (
       <Nav.Link className='link' href="#about">About</Nav.Link>
       <Nav.Link className='link' href="#projects">Projects</Nav.Link>
       <Nav.Link className='link' href="#skills">Skills</Nav.Link>
-      <Nav.Link className='link' href="https://drive.google.com/file/d/1-foW8rz_v21szDs4iOE-RS4V_u5PUJvr/view?usp=sharing" target="_blank">Resume</Nav.Link>
+      <Nav.Link className='link' href="https://drive.google.com/file/d/1AS7BFH73q8JQxIxT382K0Qshvuu1sgN3/view?usp=sharing" target="_blank">Resume</Nav.Link>
       <Nav.Link className='link' href="#contact">Contact</Nav.Link>
     </Nav>
     <Navbar className='navbarsocial'>

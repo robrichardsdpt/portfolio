@@ -2,11 +2,10 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import phone from './mobile-phone-760.png'
-import email from './email.png'
+import phone from './UIHere.png'
+import email from './logo-gmail.png'
 import li from './LI.png'
 import twitter from './Twitter_Logo_Blue.png'
-// import Carousel2 from './Carousel2'
 import Carousel from './Carousel'
 
 const Contact = () => (
