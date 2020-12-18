@@ -18,7 +18,7 @@ const Header = () => (
       <Nav.Link className='link' href="#about">About</Nav.Link>
       <Nav.Link className='link' href="#projects">Projects</Nav.Link>
       <Nav.Link className='link' href="#skills">Skills</Nav.Link>
-      <Nav.Link className='link' href="https://drive.google.com/file/d/1AS7BFH73q8JQxIxT382K0Qshvuu1sgN3/view?usp=sharing" target="_blank">Resume</Nav.Link>
+      <Nav.Link className='link' href="https://drive.google.com/file/d/1RNnPhbVUj0pcORPBMTQhGaze4vxBXl0u/view?usp=sharing" target="_blank">Resume</Nav.Link>
       <Nav.Link className='link' href="#contact">Contact</Nav.Link>
     </Nav>
     <Navbar className='navbarsocial'>
