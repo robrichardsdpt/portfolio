@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import phone from './UIHere.png'
 import email from './logo-gmail.png'
 import li from './LI.png'
-import twitter from './Twitter_Logo_Blue.png'
+import twitter from './twitter-icon.png'
 import Carousel from './Carousel'
 
 const Contact = () => (

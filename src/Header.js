@@ -2,7 +2,7 @@ import React from 'react'
 // import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import gitHub from './GitHubLight.png'
+import gitHub from './Github-icon.png'
 import li from './LI.png'
 import envelope from './logo-gmail.png'
 
