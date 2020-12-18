@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a5cf22c.chunk.css",
-    "main.js": "/portfolio/static/js/main.ef522778.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ef522778.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bfdc2176.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bfdc2176.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.2a86faee.chunk.css": "/portfolio/static/css/2.2a86faee.chunk.css",
     "static/js/2.2d154db1.chunk.js": "/portfolio/static/js/2.2d154db1.chunk.js",
     "static/js/2.2d154db1.chunk.js.map": "/portfolio/static/js/2.2d154db1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a10c7e431715b26874a4a08cd0f9d65d.js": "/portfolio/precache-manifest.a10c7e431715b26874a4a08cd0f9d65d.js",
+    "precache-manifest.21bfd5e329c67988cd401ce771bee89d.js": "/portfolio/precache-manifest.21bfd5e329c67988cd401ce771bee89d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/portfolio/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.3a5cf22c.chunk.css.map": "/portfolio/static/css/main.3a5cf22c.chunk.css.map",
     "static/js/2.2d154db1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2d154db1.chunk.js.LICENSE.txt",
     "static/media/IMG_1018.PNG": "/portfolio/static/media/IMG_1018.7cc76a64.PNG",
     "static/media/RRichardsfull.jpg": "/portfolio/static/media/RRichardsfull.230c80bf.jpg",
+    "static/media/UIHere.png": "/portfolio/static/media/UIHere.b68c1764.png",
     "static/media/App.css": "/portfolio/static/media/bondcliff.83553b6d.jpg",
     "static/media/crwn-clothing.png": "/portfolio/static/media/crwn-clothing.a1602ed4.png",
-    "static/media/email.png": "/portfolio/static/media/email.899e2d99.png",
     "static/media/gratitude.png": "/portfolio/static/media/gratitude.50027512.png",
     "static/media/greecespartan.jpg": "/portfolio/static/media/greecespartan.2592dbb1.jpg",
     "static/media/hike-log.jpg": "/portfolio/static/media/hike-log.5575261e.jpg",
@@ -26,7 +26,6 @@
     "static/media/instasham.jpg": "/portfolio/static/media/instasham.50972978.jpg",
     "static/media/link.png": "/portfolio/static/media/link.5fae64fa.png",
     "static/media/lookingout.JPG": "/portfolio/static/media/lookingout.fe72b94c.JPG",
-    "static/media/mobile-phone-760.png": "/portfolio/static/media/mobile-phone-760.cb60e778.png",
     "static/media/running.png": "/portfolio/static/media/running.0ad81363.png",
     "static/media/sunrise.jpg": "/portfolio/static/media/sunrise.9a9cac47.jpg",
     "static/media/tic-tac-toe-dark.png": "/portfolio/static/media/tic-tac-toe-dark.19fddb68.png"
@@ -36,6 +35,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.2d154db1.chunk.js",
     "static/css/main.3a5cf22c.chunk.css",
-    "static/js/main.ef522778.chunk.js"
+    "static/js/main.bfdc2176.chunk.js"
   ]
 }
