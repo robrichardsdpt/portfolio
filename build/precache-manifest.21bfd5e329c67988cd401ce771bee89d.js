@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1b52a7fa2a03959a22582a7a0e94daf",
+    "revision": "e51838026676cfc5fdda85a771fa8486",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "7167c0dad12a985a5e83",
+    "revision": "205ffcf3617250eae614",
     "url": "/portfolio/static/css/main.3a5cf22c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2d154db1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7167c0dad12a985a5e83",
-    "url": "/portfolio/static/js/main.ef522778.chunk.js"
+    "revision": "205ffcf3617250eae614",
+    "url": "/portfolio/static/js/main.bfdc2176.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/RRichardsfull.230c80bf.jpg"
   },
   {
+    "revision": "b68c1764d75164c8263d02339bb326fa",
+    "url": "/portfolio/static/media/UIHere.b68c1764.png"
+  },
+  {
     "revision": "83553b6d96feda7c11a0cf2389d3e64e",
     "url": "/portfolio/static/media/bondcliff.83553b6d.jpg"
   },
   {
     "revision": "a1602ed4d15cb5a0ff1e9b1af1641a2e",
     "url": "/portfolio/static/media/crwn-clothing.a1602ed4.png"
-  },
-  {
-    "revision": "899e2d992f10b52a44338f4149127b7c",
-    "url": "/portfolio/static/media/email.899e2d99.png"
   },
   {
     "revision": "500275120553b5fb59cdfcc6a899b5a8",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe72b94cea8bbe650989adc8b387abcc",
     "url": "/portfolio/static/media/lookingout.fe72b94c.JPG"
-  },
-  {
-    "revision": "cb60e778aed36744ff1ccdeb2789d02c",
-    "url": "/portfolio/static/media/mobile-phone-760.cb60e778.png"
   },
   {
     "revision": "0ad813630737a2dbfbd42394521bd332",
