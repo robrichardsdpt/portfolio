@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b47542e6.chunk.css",
-    "main.js": "/portfolio/static/js/main.a9757221.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a9757221.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1ebdf809.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1ebdf809.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.2a86faee.chunk.css": "/portfolio/static/css/2.2a86faee.chunk.css",
     "static/js/2.2d154db1.chunk.js": "/portfolio/static/js/2.2d154db1.chunk.js",
     "static/js/2.2d154db1.chunk.js.map": "/portfolio/static/js/2.2d154db1.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4d10751c8d0a21c7a91abb93c4f95c1e.js": "/portfolio/precache-manifest.4d10751c8d0a21c7a91abb93c4f95c1e.js",
+    "precache-manifest.0c23aab4d2b5fd2b8089b9dc634becee.js": "/portfolio/precache-manifest.0c23aab4d2b5fd2b8089b9dc634becee.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/portfolio/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.b47542e6.chunk.css.map": "/portfolio/static/css/main.b47542e6.chunk.css.map",
     "static/js/2.2d154db1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2d154db1.chunk.js.LICENSE.txt",
+    "static/media/Github-icon.png": "/portfolio/static/media/Github-icon.718cad62.png",
     "static/media/IMG_1018.PNG": "/portfolio/static/media/IMG_1018.7cc76a64.PNG",
     "static/media/RRichardsfull.jpg": "/portfolio/static/media/RRichardsfull.230c80bf.jpg",
     "static/media/UIHere.png": "/portfolio/static/media/UIHere.b68c1764.png",
@@ -28,13 +29,14 @@
     "static/media/lookingout.JPG": "/portfolio/static/media/lookingout.fe72b94c.JPG",
     "static/media/running.png": "/portfolio/static/media/running.0ad81363.png",
     "static/media/sunrise.jpg": "/portfolio/static/media/sunrise.9a9cac47.jpg",
-    "static/media/tic-tac-toe-dark.png": "/portfolio/static/media/tic-tac-toe-dark.19fddb68.png"
+    "static/media/tic-tac-toe-dark.png": "/portfolio/static/media/tic-tac-toe-dark.19fddb68.png",
+    "static/media/twitter-icon.png": "/portfolio/static/media/twitter-icon.e5e73c48.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.2d154db1.chunk.js",
     "static/css/main.b47542e6.chunk.css",
-    "static/js/main.a9757221.chunk.js"
+    "static/js/main.1ebdf809.chunk.js"
   ]
 }

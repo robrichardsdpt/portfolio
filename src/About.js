@@ -2,7 +2,7 @@ import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import self from './RRichardsfull.jpg'
+import self from './assets/images/media/RRichardsfull.jpg'
 
 const About = () => (
   <div className="aboutContainer" id='about'>
