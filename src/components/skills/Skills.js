@@ -8,6 +8,7 @@ import jquery from './../../assets/images/skills/jQuery.png'
 import nodeJS from './../../assets/images/skills/nodejs.png'
 import python from './../../assets/images/skills/Python.png'
 import mongoDB from './../../assets/images/skills/Mongodb.png'
+import graphQl from './../../assets/images/skills/GraphQL_Logo.svg.png'
 import reactLogo from './../../assets/images/skills/React.png'
 import sass from './../../assets/images/skills/SASS.png'
 import redux from './../../assets/images/skills/Redux.png'
@@ -135,6 +136,13 @@ const Skills = () => (
     </div>
     <p className='centered-text'>Firebase/Firestore</p>
     </Col>
+
+    <Col s={6} md={4} lg={2} className='skillColContainer'>
+    <div className='skillCol'>
+  <img src={graphQl} alt='graphQL' className='skillsImage'/>
+  </div>
+  <p className='centered-text'>GraphQL</p>
+  </Col>
 
     <Col xl={12}>
     <h2 className='skills-label'>Management/Deployment:</h2>
