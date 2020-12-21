@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
 import { Route } from 'react-router-dom'
-import Header from './Header'
-import Home from './Home'
-import About from './About'
-import Skills from './Skills'
-import Projects from './Projects'
-import Contact from './Contact'
-import Footer from './Footer'
+import Header from './components/header/Header'
+import Home from './components/home/Home'
+import About from './components/about/About'
+import Skills from './components/skills/Skills'
+import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 const App = () => (
     <div>

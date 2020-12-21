@@ -1,6 +1,4 @@
 import React from 'react'
-// import Col from 'react-bootstrap/Col'
-// import Container from 'react-bootstrap/Container'
 
 const Footer = () => (
   <div className="footer">

@@ -7,11 +7,11 @@ import {
   MDBMask,
   MDBContainer, MDBCarouselCaption
 } from "mdbreact"
-import greecespartan from './assets/images/carousel/greecespartan.jpg'
-import hockeyCT from './assets/images/carousel/hockeyCT.JPG'
-import sunrise from './assets/images/carousel/sunrise.jpg'
-import lookingout from './assets/images/carousel/lookingout.JPG'
-import usapl from './assets/images/carousel/IMG_1018.PNG'
+import greecespartan from './../../assets/images/carousel/greecespartan.jpg'
+import hockeyCT from './../../assets/images/carousel/hockeyCT.JPG'
+import sunrise from './../../assets/images/carousel/sunrise.jpg'
+import lookingout from './../../assets/images/carousel/lookingout.JPG'
+import usapl from './../../assets/images/carousel/IMG_1018.PNG'
 
 class CarouselPage extends Component {
   render() {

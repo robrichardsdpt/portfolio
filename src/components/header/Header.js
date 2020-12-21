@@ -1,10 +1,9 @@
 import React from 'react'
-// import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import gitHub from './assets/images/media/Github-icon.png'
-import li from './assets/images/media/LI.png'
-import envelope from './assets/images/media/logo-gmail.png'
+import gitHub from './../../assets/images/media/Github-icon.png'
+import li from './../../assets/images/media/LI.png'
+import envelope from './../../assets/images/media/logo-gmail.png'
 
 const Header = () => (
   <Nav className='nav'>
