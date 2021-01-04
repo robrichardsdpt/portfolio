@@ -11,7 +11,7 @@ import Footer from './components/footer/Footer'
 
 const App = () => (
     <div>
-    <Route path='/' component={Header} />
+      <Route path='/' component={Header} />
       <Route path='/' component={Home} />
       <Route path='/' component={About} />
       <Route path='/' component={Projects} />

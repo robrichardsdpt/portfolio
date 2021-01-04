@@ -11,6 +11,7 @@ import gitHub from './../../assets/images/media/Github-icon.png'
 import link from './../../assets/images/media/link.png'
 import gratitude from './../../assets/images/projects/gratitude.png'
 import crwnClothing from './../../assets/images/projects/crwn-clothing.png'
+import medithanks from './../../assets/images/projects/medithanks.png'
 
 
 const Projects = () => (
@@ -21,6 +22,28 @@ const Projects = () => (
     <Col className="projects-header">
     <h1 className='name' id='projects'>Projects</h1>
     </Col>
+    </Row>
+
+    <Row className='project'>
+    <Col sm={12}> <h2 className='projectTitle'>Medi+thanks:</h2> <h3 className='projectSubTitle'>Virtual frontline health care worker thank you board.</h3></Col>
+    <Col sm={12} lg={10} className="projectCell"><a href="https://pb-j.github.io/frontline-frontend/" target="_blank"><Image src={medithanks} alt="medithanks application" className="projectImage" thumbnail/></a></Col>
+    <Col sm={12} lg={2} className="linkCell"><a href="https://github.com/PB-J/frontline-frontend" target="_blank">
+    <img src={gitHub} alt='github' className='projectIcon'/>
+    </a>
+    <a href="https://pb-j.github.io/frontline-frontend/" target="_blank">
+    <img src={link} alt='website link' className='projectIcon'/>
+    </a>
+    </Col>
+    <Col sm={12} lg={12} className="project-desc">
+    <p>This was a passion project that was designed as team of 2 UX designers and 4 developers for a pandemic themed hackathon that we won.</p>
+    <p>It is a full stack application that allows a user to create, read, update, and delete thank you cards to health care workers in a HIPPA compliant fashion.</p>
+    <p>This application provides the user with the ability to search through posts, regardless if they are signed in or not.</p>
+    <p className='bolder'>Front-End: <span className='project-tech'>ReactJS</span> <span className='project-tech'>CSS</span> <span className='project-tech'>Sass</span> <span className='project-tech'>JavaScript</span> <span className='project-tech'>Bootstrap</span></p>
+    <p className='bolder'>Back-End: <span className='project-tech'>MongoDB</span> <span className='project-tech'>Mongoose</span> <span className='project-tech'>ExpressJS</span> <span className='project-tech'>NodeJS</span><span className='project-tech'>Heroku</span></p>
+    <p className='bolder'>External APIs/Software: <span className='project-tech'>Figma</span> <span className='project-tech'>Google Fonts</span></p>
+    </Col>
+
+
     </Row>
 
     <Row className='project'>
