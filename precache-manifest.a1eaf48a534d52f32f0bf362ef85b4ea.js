@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72ff218e184e5d774f9cb800a93506af",
+    "revision": "5ef2bab40ff9e9b33f0779d61140f9d1",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ef4d8fcf90a5a3de5629",
+    "revision": "46decc8d2f7ccd9b76fa",
     "url": "/portfolio/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "50d8d47f2dd98e394941",
-    "url": "/portfolio/static/css/main.b47542e6.chunk.css"
+    "revision": "673470f866865d023ea4",
+    "url": "/portfolio/static/css/main.16187640.chunk.css"
   },
   {
-    "revision": "ef4d8fcf90a5a3de5629",
-    "url": "/portfolio/static/js/2.2d154db1.chunk.js"
+    "revision": "46decc8d2f7ccd9b76fa",
+    "url": "/portfolio/static/js/2.03f97579.chunk.js"
   },
   {
     "revision": "1b9cc396521eecb2045c787139670fba",
-    "url": "/portfolio/static/js/2.2d154db1.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.03f97579.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50d8d47f2dd98e394941",
-    "url": "/portfolio/static/js/main.1ebdf809.chunk.js"
+    "revision": "673470f866865d023ea4",
+    "url": "/portfolio/static/js/main.6de0cde4.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "718cad629dbab1b10d8bb4858cf9d210",
     "url": "/portfolio/static/media/Github-icon.718cad62.png"
+  },
+  {
+    "revision": "e7f32a3e1c538ef387b2abf5a55d5468",
+    "url": "/portfolio/static/media/GraphQL_Logo.svg.e7f32a3e.png"
   },
   {
     "revision": "7cc76a64ef3dd10feab8fa1aa700c4b0",
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe72b94cea8bbe650989adc8b387abcc",
     "url": "/portfolio/static/media/lookingout.fe72b94c.JPG"
+  },
+  {
+    "revision": "087d81f9d666e3833c10678a81b7471e",
+    "url": "/portfolio/static/media/medithanks.087d81f9.png"
   },
   {
     "revision": "0ad813630737a2dbfbd42394521bd332",
