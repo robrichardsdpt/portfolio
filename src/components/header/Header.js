@@ -4,7 +4,8 @@ import Navbar from 'react-bootstrap/Navbar'
 import gitHub from './../../assets/images/media/Github-icon.png'
 import li from './../../assets/images/media/LI.png'
 import envelope from './../../assets/images/media/logo-gmail.png'
-
+import medium from './../../assets/images/media/medium_logo.png'
+// https://robrichardsdpt.medium.com/
 const Header = () => (
   <Nav className='nav'>
   <Navbar collapseOnSelect expand="xl" className='nav' variant="dark">
@@ -34,6 +35,11 @@ const Header = () => (
     <div className='social'>
     <Nav.Link href="mailto:robrichardsdpt@gmail.com" target="_blank">
     <img src={envelope} alt='e-mail' className='email'/>
+    </Nav.Link>
+    </div>
+    <div className='social'>
+    <Nav.Link href="https://robrichardsdpt.medium.com/" target="_blank">
+    <img src={medium} alt='medium' className='gitHub'/>
     </Nav.Link>
     </div>
     </Navbar>
